@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#card{
+  background-color: rgba(10, 10, 10, 0.5);
+  transition: 0.5s ease-in-out;
+}
+#card:hover{
+  background-color: rgba(10, 10, 10, 0);
+
+}
+#head{
+  transition: 0.5s ease-in-out;
+}
+#card:hover #head{
+  margin-top: 8rem;
+}
+#img1{
+  transition: all .3s ease-in-out;
+}
+.relative:hover #img1{
+  transform: scale(1.2);
+}
